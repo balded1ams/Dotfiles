@@ -1,0 +1,16 @@
+configuration {
+	font: "monospace 11";
+	disable-history: true;
+	sort: true;
+	sorting-method: "fzf";
+	hover-select: false;
+ timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+@theme "turn-on/theme.rasi"
